@@ -2,8 +2,13 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className='flex w-[85%]  justify-evenly text-white font-cuerpo dark:text-black'>
-      <div className='flex mb-0 px-0 py-0'>
+    <footer className='flex flex-col w-[85%] items-center justify-center text-white font-cuerpo dark:text-black'>
+      <div className='flex flex-col items-center justify-center mb-10'>
+        <h2>Gracias por llegar hasta aqui</h2>
+        <button>CV AQUI</button>
+      </div>
+
+      <div className='flex mb-0 px-0 py-0 '>
         <h2>Copiryght</h2>
 
       </div>
